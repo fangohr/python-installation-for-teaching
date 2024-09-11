@@ -16,6 +16,12 @@ all works well following [file:install-pixi-environment.sh] with the exception o
 
 ** Windows 11 (<2024-09-11 Wed>)
 
+- pixi installer needs to be run in powershell
+
+- afterwards, pixi command is available in ~cmd~ and ~powershell~
+
+- install packages as in [file:install-pixi-environment.sh]
+
 All works well following [file:install-pixi-environment.sh], jupyter
 starts, but spyder reports a problem not finding the default kernel
 when it starts. Didn't investigate further.
