@@ -2,7 +2,7 @@
 
 * Context
 
-Imagine a class of engineering students need to learn Python programming.
+Imagine a class of science or engineering students need to learn Python programming.
 Ideally, (i) their university provides a Python environment and (ii) they can
 install the same (or very similar) Python environment on their laptops.
 
@@ -25,12 +25,14 @@ many of them and (ii) they tend to be technically more experienced.
 For a beginners course touching on data science, common requirements are:
 
 - a recent ~python~ (for example 3.12)
+- more convenient prompt ~ipython~
+- to install package from PyPI ~pip~
+- to support testing ~pytest~
+- for pep8 compliance ~pycodestyle~, and one of ~black~, ~ruff~
 - numerical and data science libraries: ~numpy, scipy, pandas~
 - plotting ~matplotlib~
 - an IDE (~spyder~)
 - Jupyter notebook and lab (~jupyter~)
-- to support testing ~pytest~
-- for pep8 compliance ~pycodestyle~, and one of ~black~, ~ruff~ 
 
 * Anaconda
 
