@@ -36,7 +36,7 @@ For a beginners course touching on data science, common requirements are:
 
 * Anaconda
 
-In the past, the Anaconda distribution was an attractive choice. It installs
+In the past, the Anaconda distribution was [[https://fangohr.github.io/blog/installation-of-python-spyder-numpy-sympy-scipy-pytest-matplotlib-via-anaconda.html][an attractive choice]]. It installs
 smoothly on Windows, MacOS and Linux, and provides a comprehensive collection of
 Python tools that cover all teaching needs.
 
