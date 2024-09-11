@@ -56,3 +56,11 @@ smoothest possible way and enable them to install them themselves?
 ** pixi
 [to be added]
 
+** Spyder app
+Spyder provides an [[https://docs.spyder-ide.org/current/installation.html#downloading-and-installing][integrated app]] that includes the Spyder IDE and important
+libraries such as ~numpy, scipy, matplotlib, pandas~.
+
+It is possible to execute python programs in the Spyder IDE (from this App)
+using Python environments provided by other means (see Question "How do I get
+Spyder to work with my existing Python packages/environments?" in the [[https://docs.spyder-ide.org/current/faq.html#using-spyder][Using
+Spyder FAQ]].
