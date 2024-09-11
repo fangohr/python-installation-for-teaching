@@ -1,0 +1,22 @@
+* Experiments <2024-09-11 Wed>
+
+** MacOS (<2024-09-11 Wed>)
+
+all works well following [file:install-pixi-environment.sh] with the exception of:
+
+- spyder doesn't start:
+
+  /Users/fangohr/git/python-installation-for-teaching/pixi/.pixi/envs/default/bin/pythonw: line 3: /Users/fangohr/git/python-installation-for-teaching/pixi/.pixi/envs/default/python.app/Contents/MacOS/python: No such file or directory
+
+  This is a known bug:
+  https://github.com/spyder-ide/spyder/issues/22386 with the
+  python.app application, and can be manually fixed by editing a file.
+
+  Once this is done, spyder starts fine.
+
+** Windows 11 (<2024-09-11 Wed>)
+
+All works well following [file:install-pixi-environment.sh], jupyter
+starts, but spyder reports a problem not finding the default kernel
+when it starts. Didn't investigate further.
+  
