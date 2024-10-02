@@ -1,6 +1,6 @@
 * Experiments <2024-09-11 Wed>
 
-** MacOS (<2024-09-11 Wed>)
+** MacOS all conda-forge (<2024-09-11 Wed>) 
 
 all works well following [file:install-pixi-environment.sh] with the exception of:
 
@@ -11,8 +11,16 @@ all works well following [file:install-pixi-environment.sh] with the exception o
   This is a known bug:
   https://github.com/spyder-ide/spyder/issues/22386 with the
   python.app application, and can be manually fixed by editing a file.
+  (The problem seems to be that the ~Python.app~ package in conda-forge is broken.)
 
   Once this is done, spyder starts fine.
+
+** MacOS all conda-forge but spyder from PyPI
+
+The above problem can be solved by installing only spyder from PyPI,
+see [file:install-pixi-environment-spyder-from-pypi.sh]. Tested on Mac
+with M2, on <2024-10-02 Wed>.
+
 
 ** Windows 11 (<2024-09-11 Wed>)
 
