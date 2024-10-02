@@ -64,7 +64,7 @@ themselves?
 Pixi
 ====
 
-See `pixi/notes.org <pixi/notes.org>`__.
+See `pixi/notes.rst <pixi/notes.rst>`__.
 
 Spyder app
 ==========
