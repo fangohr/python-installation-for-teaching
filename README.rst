@@ -98,7 +98,7 @@ Install everything from pip
 #. Use pip to install all other requirements:
    ``pip install numpy scipy pandas matplotlib pytest black pycodestyle spyder jupyter ipython sympy pip``
 
-An example for this is explained in `pixi install from pip <pixi/notes.rst>`__.
+An example for this is explained in `pixi install all from pip <pixi/notes.rst>`__.
 
 miniforge
 =========
