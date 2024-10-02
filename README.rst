@@ -1,3 +1,5 @@
+.. contents::
+
 Context
 =======
 
@@ -62,7 +64,7 @@ themselves?
 Pixi
 ====
 
-See [file:pixi/notes.org].
+See `pixi/notes.org <pixi/notes.org>`__.
 
 Spyder app
 ==========
@@ -81,6 +83,8 @@ App) using Python environments provided by other means (see Question
 packages/environments?" in the `Using Spyder
 FAQ <https://docs.spyder-ide.org/current/faq.html#using-spyder>`__.
 
+See also `spyderapp/notes.org <spyder/notes.org>`__.
+
 Install everything from pip
 ===========================
 
@@ -93,6 +97,8 @@ Install everything from pip
 
 #. Use pip to install all other requirements:
    ``pip install numpy scipy pandas matplotlib pytest black pycodestyle spyder jupyter ipython sympy pip``
+
+An example for this is explained in `pixi install from pip <pixi/notes.rst>`__.
 
 miniforge
 =========
