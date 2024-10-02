@@ -1,3 +1,7 @@
+===========================================
+Installing Python for teaching and learning
+===========================================
+
 .. contents::
 
 Context
@@ -14,16 +18,6 @@ confident to operate with a command prompt (or know where to find it).
 Requirements
 ============
 
-Supported operating systems
----------------------------
-
-Ideally, the Python environment could be installed on the major three
-operating systems (Linux, MacOS, Windows) because the students are
-likely to have a variety of operating systems.
-
-Those using Linux are generally the smallest problem because (i) there
-are not many of them and (ii) they tend to be technically more
-experienced.
 
 Python packages
 ---------------
@@ -42,6 +36,41 @@ are:
 -  plotting ``matplotlib``
 -  an IDE (``spyder``)
 -  Jupyter notebook and lab (``jupyter``)
+-  symbolic python (``sympy``)
+-  to install additional packages, sometimes ``pip`` is useful (if not provided anyway)
+
+Supported operating systems
+---------------------------
+
+Ideally, the Python environment could be installed on the major three
+operating systems (Linux, MacOS, Windows) because the students are
+likely to have a variety of operating systems.
+
+Those using Linux are generally the smallest problem because (i) there
+are not many of them and (ii) they tend to be technically more
+experienced.
+
+   
+
+Spyder app
+==========
+
+Spyder provides an `integrated
+app <https://docs.spyder-ide.org/current/installation.html#downloading-and-installing>`__
+that includes the Spyder IDE and important libraries such as
+``numpy, scipy, matplotlib, pandas``.
+
+This provides all the requirements apart from Jupyter and pytest. It
+is definitely a good starting point.
+
+As of <2024-10-02 Wed> on MacOS, this comes with Spyder 6 and Python
+3.11. (It installs into ~/Applications on MacOS.)
+
+(Advanced: It is possible to execute python programs in the Spyder IDE (from this
+App) using Python environments provided by other means (see Question
+"How do I get Spyder to work with my existing Python
+packages/environments?" in the `Using Spyder
+FAQ <https://docs.spyder-ide.org/current/faq.html#using-spyder>`__.)
 
 Anaconda
 ========
@@ -65,25 +94,6 @@ Pixi
 ====
 
 See `pixi/notes.rst <pixi/notes.rst>`__.
-
-Spyder app
-==========
-
-Spyder provides an `integrated
-app <https://docs.spyder-ide.org/current/installation.html#downloading-and-installing>`__
-that includes the Spyder IDE and important libraries such as
-``numpy, scipy, matplotlib, pandas``.
-
-As of <2024-10-02 Wed> on MacOS, this comes with Spyder 6 and Python
-3.11. (It installs into ~/Applications on MacOS)
-
-It is possible to execute python programs in the Spyder IDE (from this
-App) using Python environments provided by other means (see Question
-"How do I get Spyder to work with my existing Python
-packages/environments?" in the `Using Spyder
-FAQ <https://docs.spyder-ide.org/current/faq.html#using-spyder>`__.
-
-See also `spyderapp/notes.org <spyder/notes.org>`__.
 
 Install everything from pip
 ===========================

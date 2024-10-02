@@ -24,24 +24,25 @@ Windows 11 all conda-forge (<2024-09-11 Wed>)
 
 -  afterwards, pixi command is available in ``cmd`` and ``powershell``
 
--  install packages as in [file:install-pixi-environment.sh]
+-  install packages as in `install-pixi-environment.sh <install-pixi-environment.sh>`__
 
-All works well following [file:install-pixi-environment.sh], jupyter
+All works well following `install-pixi-environment.sh <install-pixi-environment.sh>`__, jupyter
 starts, but spyder reports a problem not finding the default kernel when
 it starts. Didn't investigate further.
+
 
 All conda-forge (<2024-09-11 Wed>)
 ----------------------------------
 
-all works well following [file:install-pixi-environment.sh] with the
+All works well following `install-pixi-environment.sh <install-pixi-environment.sh>`__ with the
 exception of spyder on MacOS:
 
--  spyder doesn't start:
+-  spyder doesn't start::
 
-   *Users/fangohr/git/python-installation-for-teaching/pixi*.pixi/envs/default/bin/pythonw:
-   line 3:
-   *Users/fangohr/git/python-installation-for-teaching/pixi*.pixi/envs/default/python.app/Contents/MacOS/python:
-   No such file or directory
+     Users/fangohr/git/python-installation-for-teaching/pixi*.pixi/envs/default/bin/pythonw:
+     line 3:
+     *Users/fangohr/git/python-installation-for-teaching/pixi*.pixi/envs/default/python.app/Contents/MacOS/python:
+     No such file or directory
 
    This is a known bug:
    https://github.com/spyder-ide/spyder/issues/22386 with the python.app
@@ -52,9 +53,9 @@ exception of spyder on MacOS:
 
 
 All conda-forge but spyder from PyPI
-------------------------------------------
+------------------------------------
 
 The above problem (on MacOS) can be solved by installing only spyder from PyPI, see
-[file:install-pixi-environment-spyder-from-pypi.sh].
+`install-pixi-environment-spyder-from-pypi.sh <install-pixi-environment-spyder-from-pypi.sh>`__.
 
 Tested on Mac with M2, on <2024-10-02 Wed>.
